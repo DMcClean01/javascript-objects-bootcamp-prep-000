@@ -1,5 +1,5 @@
 var playlist = {
-  artist: "Mya",
+  artistName: "Mya",
   song: "All About Me"
 };
 

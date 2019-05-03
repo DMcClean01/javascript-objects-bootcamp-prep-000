@@ -1,16 +1,15 @@
-var playlist = { 
-  artistName: "Mya",
-  songTitle: "All About Me"
+var playlist = {
+  'Marine Boudeau': 'Something',
+  'Someone else': 'Something else'
 };
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  playlist[songTitle] = "All About Me", "Fallen";
-}
-
+  playlist[artistName] = songTitle;
 return playlist;
+}
 
 function removeFromPlaylist(playlist, artistName) {
   delete playlist[artistName];
 }
-
+ 
 return playlist;

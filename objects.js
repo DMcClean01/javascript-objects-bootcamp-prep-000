@@ -3,8 +3,8 @@ var playlist = {
   songTitle: "All About Me"
 };
 
-function updatePlaylist() {
-  playlist.songTitle = ["All About Me", "Fallen"];
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[songTitle] = ["All About Me", "Fallen"];
 }
 
 function removeFromPlaylist() {

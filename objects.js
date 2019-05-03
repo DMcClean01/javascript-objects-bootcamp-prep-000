@@ -4,7 +4,9 @@ var playlist = {
 };
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  playlist[songTitle] = 'All About Me';
+  playlist[artistName] = 'Pitbull';
+  
+  return playlist;
 }
 
 function removeFromPlaylist(playlist, artistName) {

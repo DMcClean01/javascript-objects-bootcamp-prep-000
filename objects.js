@@ -3,6 +3,10 @@ var playlist = {
   songTitle: "All About Me"
 };
 
-playlist.songTitle = ["All About Me", "Fallen"];
+function updatePlaylist() {
+  playlist.songTitle = ["All About Me", "Fallen"];
+}
 
-delete playlist.artistName;
+function removeFromPlaylist() {
+  delete playlist.artistName;
+}
